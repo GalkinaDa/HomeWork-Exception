@@ -27,9 +27,6 @@ public class Product {
         return Objects.hash(id, title, price);
     }
 
-    // геттеры + сеттеры
-    // на id только геттер — пусть будет неизменяемым для товара
-
     public int getId() {
         return id;
     }
